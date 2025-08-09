@@ -4,6 +4,7 @@
   box-sizing: border-box;
   /* background-color: red; */
   font-family: 'Nunito Sans', sans-serif;
+  line-height: 2.23em;
 }
 
 @font-face {
@@ -107,7 +108,7 @@ main img {
   width: 100%;
 }
 
-.our-industry{
+.our-industry {
   height: 60vh;
   display: flex;
   align-items: center;
@@ -173,17 +174,58 @@ ul.diamond-shape li::before {
   font-weight: 600;
   white-space: nowrap;
 }
+
+/* about with male model */
+h2.section_header {
+  margin-bottom: 0.57em;
+  font-size: 40px;
+  position: relative;
+  word-wrap: break-word;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+h2.section_header+.small-text {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.small-text {
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+}
+
+.grey {
+  color: #363636;
+  border-color: #363636;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.about {
+  width: 60% !important;
+}
+
+
 /* slider images */
-.carousel-images{
+.carousel-images {
   width: 94%;
   margin-left: 3%;
   /* border: 1px solid black; */
   display: grid;
   position: relative;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
-.carousel-images .arr1,.arr2{
+.carousel-images .arr1,
+.arr2 {
   top: calc(50% - 25px);
 }
 
@@ -215,16 +257,30 @@ ul.diamond-shape li::before {
   padding: 10px 0;
 }
 
-p span{
+p span {
   display: inline-block;
   width: 40%;
   word-wrap: nowrap;
 }
 
-nav{
+nav {
   position: sticky !important;
   z-index: 10;
   top: 0px;
+}
+
+@media (min-width: 1200px) {
+  h2.section_header+.small-text {
+    margin-bottom: 60px;
+    letter-spacing: 1em;
+    margin-right: -1em;
+  }
+
+  h2.section_header+.small-text {
+    margin-bottom: 60px;
+    letter-spacing: 1em;
+    margin-right: -1em;
+  }
 }
 
 @media screen and (max-width: 1176px) {
@@ -247,6 +303,19 @@ nav{
     margin-top: 100px;
     margin-left: 0;
   }
+
+  #about .about-cover {
+    width: 118%;
+    max-width: 118%;
+  }
+}
+
+@media screen and (max-width:768) {
+      h2.section_header + .small-text {
+        letter-spacing: 0.5em;
+        margin-right: -0.5em;
+    }
+  
 }
 
 @media screen and (max-width: 576px) {
