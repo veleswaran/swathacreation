@@ -88,12 +88,13 @@ main img {
 }
 
 .main .arr1 {
-  top: 300px;
+  z-index: 100;
+  top: 45%;
   left: -30px
 }
 
 .main .arr2 {
-  top: 300px;
+  top: 45%;
   left: 98.5%;
 }
 
@@ -208,13 +209,13 @@ h2.section_header+.small-text {
 
 
 .about {
-  width: 70% ;
+  width: 70%;
   /* border: 1px solid black; */
 }
 
 #about .about-cover {
-    max-width: 118%;
-  }
+  max-width: 118%;
+}
 
 /* product section */
 
@@ -388,11 +389,14 @@ p span {
     left: 97.6%;
   }
 
-   .about{
+  .about {
     width: 90%;
     /* border: 1px solid black; */
   }
 
+   .fabric-card img {
+    height: 100px;
+  }
 }
 
 
@@ -429,7 +433,7 @@ p span {
     left: 96%;
   }
 
- 
+
 }
 
 @media screen and (max-width:768px) {
@@ -443,6 +447,9 @@ p span {
 
   }
 
+   .fabric-card img {
+    height: 100px;
+  }
 
 }
 
@@ -452,14 +459,15 @@ p span {
     align-items: center;
     width: 100%;
     gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
+  /* 
   .main {
     width: 100%;
     margin-left: 0%;
     height: 60vh;
-  }
+  } */
 
   .our {
     width: 100%;
@@ -514,7 +522,6 @@ p span {
 
   .products .product-items {
     flex: 0 0 99%;
-
   }
 
   .fabrics {
@@ -523,7 +530,10 @@ p span {
   }
 
   .fabric-card img {
-    height: 150px;
+    height: 120px;
   }
 
+  .filter a {
+    padding: 0 20px;
+  }
 }
