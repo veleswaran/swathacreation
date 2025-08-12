@@ -35,7 +35,7 @@ main img {
   top: 150px;
   left: 10%;
   width: 40%;
-  height: 400px;
+  height: 60%;
   border-radius: 40px 70px;
 
 }
@@ -44,7 +44,7 @@ main img {
   left: 60%;
   top: 20px;
   width: 25%;
-  height: 300px;
+  height: 40%;
 }
 
 .img3 {
@@ -52,7 +52,7 @@ main img {
   width: 12%;
   top: 350px;
   transform: rotate(-10deg);
-  height: 250px;
+  height: 35%;
 }
 
 .img4 {
@@ -60,7 +60,7 @@ main img {
   left: 68%;
   top: 350px;
   transform: rotate(-10deg);
-  height: 250px;
+  height: 35%;
 }
 
 .img5 {
@@ -68,7 +68,7 @@ main img {
   width: 12%;
   top: 350px;
   transform: rotate(-10deg);
-  height: 250px;
+  height: 35%;
 }
 
 .arrow {
@@ -208,8 +208,13 @@ h2.section_header+.small-text {
 
 
 .about {
-  width: 60% !important;
+  width: 70% ;
+  /* border: 1px solid black; */
 }
+
+#about .about-cover {
+    max-width: 118%;
+  }
 
 /* product section */
 
@@ -383,6 +388,11 @@ p span {
     left: 97.6%;
   }
 
+   .about{
+    width: 90%;
+    /* border: 1px solid black; */
+  }
+
 }
 
 
@@ -402,7 +412,6 @@ p span {
   }
 
   #about .about-cover {
-    width: 118%;
     max-width: 118%;
   }
 
@@ -419,6 +428,8 @@ p span {
     position: absolute;
     left: 96%;
   }
+
+ 
 }
 
 @media screen and (max-width:768px) {
