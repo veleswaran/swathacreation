@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- Top Navbar for show contect -->
     <div class="top-bar text-center text-md-start ">
         <div class="container d-md-flex justify-content-between align-items-center">
             <div>
@@ -25,10 +26,13 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+
+    <!-- Main Navbar  -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="/assets/logo/main-logo.avif" alt="" width="45px"> <span
-                    style="color:#d81b60;">S</span>wetha <span style="color:#d81b60;">C</span>reation</a>
+            <a class="navbar-brand" href="#"><img src="/assets/logo/swetha-logo.jpeg" alt="" width="180px">
+                <!-- <span style="color:#d81b60;">S</span>wetha <span style="color:#d81b60;">C</span>reation -->
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,13 +58,12 @@
             </div>
         </div>
     </nav>
-    <div id="demo" class="carousel slide main h-100" data-bs-ride="carousel">
-        <div class="arrow arr1 d-none d-md-block d-lg-block" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            &lt </div>
 
+    <!-- header carousel section -->
+    <div id="demo" class="carousel slide container mb-2" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/assets/sliderimage/slide01.jpg" alt="Los Angeles" class="d-block w-100" width="100%">
+                <img src="/assets/sliderimage/slide01.jpg" alt="Los Angeles" class="d-block w-100">
             </div>
             <div class="carousel-item">
                 <img src="/assets/sliderimage/slide02.jpg" alt="Chicago" class="d-block w-100">
@@ -69,42 +72,36 @@
                 <img src="/assets/sliderimage/slide03.jpg" alt="New York" class="d-block w-100">
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
-
-        <div class="arrow arr2 d-none d-md-block d-lg-block" type="button" data-bs-target="#demo" data-bs-slide="next">
-            &gt</div>
-        </div>
-    <!-- <main class="main">
-        <div class="arrow arr1 d-none d-md-block d-lg-block">
-            &lt </div>
-        <img src="./new_assets/slide1.png" alt="" class="img1">
-        <img src="./new_assets/baby-hoody.jpg" alt="" class="img2">
-        <img src="./new_assets/black-t-shirt.jpg" alt="" class="img3">
-        <img src="./new_assets/green-hoody.webp" alt="" class="img4">
-        <img src="./new_assets/Green-T-shirt.webp" alt="" class="img5">
-        <div class="arrow arr2 d-none d-md-block d-lg-block">&gt</div>
-    </main> -->
-    <section class="our-industry">
-        <div class="container d-lg-flex d-sm-block ">
-            <div class="logs">
-                <img src="/assets/logo/sedex.png" alt="">
-                <img src="/assets/logo/WALT-DISNEY.svg" alt="">
-                <img src="/assets/logo/Better-Cotton-Initiative.png" alt="">
-                <img src="/assets/logo/zed-logo.png" alt="">
-                <img src="/assets/logo/ISO.png" alt="">
-                <img src="/assets/logo/starexporthouse.webp" alt="">
-                <img src="/assets/logo/GOT.png" alt="">
-                <img src="/assets/logo/Global-recy-logo.webp" alt="">
+    <!-- Our induestrial strength -->
+    <section class="our-industry container">
+        <div class="row">
+            <div class="logs col-lg-6 col-12">
+                <img src="/assets/logo/logo1.png" alt="">
+                <img src="/assets/logo/logo2.svg" alt="">
+                <img src="/assets/logo/logo3.png" alt="">
+                <img src="/assets/logo/logo4.png" alt="">
+                <img src="/assets/logo/logo5.png" alt="">
+                <img src="/assets/logo/logo6.webp" alt="">
+                <img src="/assets/logo/logo7.png" alt="">
+                <img src="/assets/logo/logo8.webp" alt="">
             </div>
-            <div class="our">
-                <h1 class="text-center">Our Core Team Strengths</h1>
+            <div class="our col-lg-6 col-12">
+                <h1 class="text-center text-primary">Our Core Team Strengths</h1>
                 <ul class="diamond-shape">
-                    <li>Fashion Trend</li>
-                    <li>Team Work</li>
-                    <li>Quality is Our Pride</li>
-                    <li>Competitive Price</li>
-                    <li>On Time Delivery</li>
-                    <li>Eficient Employers</li>
+                    <li>✅ Fashion Trend</li>
+                    <li>✅ Team Work</li>
+                    <li>✅ Quality is Our Pride</li>
+                    <li>✅ Competitive Price</li>
+                    <li>✅ On Time Delivery</li>
+                    <li>✅ Eficient Employers</li>
                 </ul>
             </div>
         </div>
@@ -315,24 +312,11 @@
         </div>
     </section>
 
-    <!-- Carousel -->
-    <!-- <section id="fashionCarousel" class="carousel-images slide mt-5 ">
-        <div class="arrow arr1 d-none d-md-block d-lg-block ">
-            &lt </div>
-        <img src="./assets/slider/01.jpg" alt="Slide 1" width="100%">
-        <img src="./assets/slider/02.jpg" alt="Slide 1" width="100%">
-        <img src="./assets/slider/03.jpg" alt="Slide 1" width="100%">
-        <img src="./assets/slider/04.jpg" alt="Slide 1" width="100%">
-        <img src="./assets/slider/05.jpg" alt="Slide 1" width="100%">
-        <img src="./assets/slider/06.jpg" alt="Slide 1" width="100%">
-        <div class="arrow arr2 d-none d-md-block d-lg-block">&gt</div>
-    </section> -->
-
     <section class="factory py-5">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row g-4 align-items-center">
                 <!-- Left Text -->
-                <div class="col-2 text-center text-md-start">
+                <div class="col-md-2 col-sm-4 col-6 text-center text-md-start">
                     <h2 class="fw-bold">OUR<br>FACTORY</h2>
                     <a href="#" class="btn btn-outline-dark mt-3">
                         Learn more <i class="fa-solid fa-arrow-right ms-2"></i>
@@ -340,28 +324,28 @@
                 </div>
 
                 <!-- Cards -->
-                <div class="col-10">
+                <div class="col-md-10 col-sm-8 col-6">
                     <div class="row g-3 flex-nowrap overflow-hidden">
-                        <div class="col-6 col-sm-4 col-md-3">
+                        <div class="col-12 col-sm-6 col-md-4">
                             <div class="card factory-card">
                                 <img src="/assets/factory/knitting-machine.jpg" class="img-fluid" alt="Knitting"
                                     width="100%">
                                 <div class="factory-card-title">KNITTING</div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-4 col-md-3">
+                        <div class="col-12 col-sm-6 col-md-4">
                             <div class="card factory-card">
                                 <img src="/assets/factory/dyeing.webp" class="img-fluid" alt="Dyeing">
                                 <div class="factory-card-title">DYEING</div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-4 col-md-3">
+                        <div class="col-12 col-sm-6 col-md-4">
                             <div class="card factory-card">
                                 <img src="/assets/factory/printing-factory.jpg" class="img-fluid" alt="Printing">
                                 <div class="factory-card-title">PRINTING</div>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-4 col-md-3">
+                        <div class="col-12 col-sm-6 col-md-4">
                             <div class="card factory-card">
                                 <img src="/assets/factory/finishing.jpg" class="img-fluid" alt="Finishing">
                                 <div class="factory-card-title">
@@ -375,51 +359,12 @@
         </div>
     </section>
 
-    <!-- <div class="footer text-center text-md-start mt-5" style="color: #666666;">
-        <div class="container">
-            <div class="row text-center text-md-start">
-                <div class="col-md-4 mb-4">
-                    <div class="logo mb-4">
-                        <h2 class="fw-bolder"><span style="color:#d81b60;">S</span class="text-dark">wetha <span
-                                style="color:#d81b60;">C</span>reation</a></h2>
-                    </div>
-                    <p><i class="bi bi-telephone"></i> 0421-2374 333, 96262 00333</p>
-                    <p><i class="bi bi-envelope"></i> nk@swethacreations.com</p>
-                    <p><i class="bi bi-geo-alt"></i> 114/6, Ksipalayam, Maniyakarampalayam Road, Nallur Tirupur -
-                        641
-                        606</p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="logo">
-                        <h2 class="fw-bolder f-2 text-dark mb-4">Hours</h2>
-                    </div>
-                    <p><span>Weekdays</span> <span>8:00 - 20:00</span> </p>
-                    <p><span>Saturday</span> <span>9:00 - 16:00</span></p>
-                    <p><span>Sunday</span> <span>Closed</span></p>
-                    <p><span>Holidays</span> <span>10:00 - 14:00</span> </p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="logo">
-                        <h2 class="fw-bolder f-2 text-dark mb-4">Details</h2>
-                    </div>
-                    <p><i class="bi bi-truck"></i> Worldwide 100% Free Shipping</p>
-                    <p><i class="bi bi-headset"></i> Fast and Excellent Customer Support</p>
-                    <p><i class="bi bi-shield-check"></i> 100% Moneyback Guarantee</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <footer class="bg-light text-dark pt-5">
+    <footer class="bg-white text-dark pt-5 border-top border-1 border-secondery">
         <div class="container">
             <!-- Top Row -->
             <div class="row mb-4">
                 <div class="col-md-8">
-                    <h4 class="fw-bold">
-                        <i class="fa-solid fa-shirt"></i>
-                        <h2 class="fw-bolder"><span style="color:#d81b60;">S</span class="text-dark">wetha <span
-                                style="color:#d81b60;">C</span>reation</a></h2>
-                    </h4>
+                    <img src="/assets/logo/swetha-logo.jpeg" alt="" width="40%">
                     <p>Garment Manufacturer and Exporter in Tirupur</p>
                     <div class="d-flex gap-3 fs-5">
                         <a href="#"><i class="fab fa-twitter text-dark"></i></a>
