@@ -269,6 +269,34 @@ h2.section_header+.small-text {
   display: block !important;
 }
 
+.products #product-img2:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img2:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img3:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img3:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img4:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img4:hover .product-img1-alt {
+  display: block !important;
+}
+
+
 
 
 /* fabric section */
@@ -333,6 +361,35 @@ h2.section_header+.small-text {
   left: 98.5%;
 }
 
+/* our factory */
+
+.factory-card {
+  background-color: #f8f9fa;
+  height: 350px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.factory-card img {
+  height: 80%;
+  width: 100%;
+  /* object-fit: contain; */
+}
+
+.factory{
+  width: 94%;
+  margin-left: 3%;
+}
+
+.factory-card-title {
+  font-weight: bold;
+  padding: 10px;
+}
+
 /* footer sections */
 .footer {
   background-color: #f8f9fa;
@@ -394,7 +451,7 @@ p span {
     /* border: 1px solid black; */
   }
 
-   .fabric-card img {
+  .fabric-card img {
     height: 100px;
   }
 }
@@ -447,7 +504,7 @@ p span {
 
   }
 
-   .fabric-card img {
+  .fabric-card img {
     height: 100px;
   }
 
