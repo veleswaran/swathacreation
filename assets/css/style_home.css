@@ -238,7 +238,7 @@ h2.section_header+.small-text {
 }
 
 .products .product-items {
-  flex: 0 0 23%;
+  flex: 0 0 23.5%;
   box-sizing: border-box;
   scroll-snap-align: start;
   border: 1px solid #ccc;
@@ -294,7 +294,59 @@ h2.section_header+.small-text {
   display: block !important;
 }
 
+.products #product-img5:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
 
+.products #product-img5:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img6:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img6:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img7:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img7:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img8:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img8:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img9:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img9:hover .product-img1-alt {
+  display: block !important;
+}
+
+.products #product-img10:hover .product-img1 {
+  transition-duration: 2s;
+  display: none;
+}
+
+.products #product-img10:hover .product-img1-alt {
+  display: block !important;
+}
 
 
 /* fabric section */
@@ -307,11 +359,11 @@ h2.section_header+.small-text {
 }
 
 .fabric-card img {
-  width: 50%;
-  height: 125px;
-  opacity: 0.3;
+  width: 80%;
+  height: 150px;
+  opacity: 1;
   margin-bottom: 10px;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .fabric-card img:hover {
@@ -475,7 +527,7 @@ p span {
   }
 
   .products .product-items {
-    flex: 0 0 24%;
+    flex: 0 0 31%;
 
   }
 
@@ -496,7 +548,7 @@ p span {
   }
 
   .products .product-items {
-    flex: 0 0 31%;
+    flex: 0 0 47%;
 
   }
 
@@ -578,7 +630,7 @@ p span {
   }
 
   .products .product-items {
-    flex: 0 0 99%;
+    flex: 0 0 47%;
   }
 
   .fabrics {
